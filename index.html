@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout || Ciesco E-Commerce</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="header">
+      <img src="./assests//Screenshot__500_-removebg-preview.png" alt="logo"class="logo"/>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="#">Men</a></li>
+          <li><a class="navbar-link" href="#">Women</a></li>
+          <li><a class="navbar-link" href="#">Beauty</a></li>
+          <li><a class="navbar-link" href="#">Sport</a></li>
+          <li class="dropdown">
+            <a href="#">Templates <span class="dropdown-symbol">&#9662;</span></a>
+            <div class="dropdown-content">
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Explore <span class="dropdown-symbol">&#9662;</span></a>
+            <div class="dropdown-content">
+            </div>
+          </li>
+          <li>
+            <img src="./assests/search-removebg-preview.png" alt="" class="head-icon">
+            <img src="./assests/user-removebg-preview (1).png" alt="" class="head-icon">
+            <img src="./assests/shopping-bag-removebg-preview.png" alt="" class="head-icon">
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="col-md-7">
+        <h1 class="checkout">Checkout</h1>
+        <h6 class="route">Homepage / Clothing Categories / <u>Checkout</u></h6>
+        <div class="contact-info">
+            <h4 class="heading">CONTACT INFO <b>✓</b></h4>
+            <h3 class="sub-heading">Enrico Smith &emsp; +855 - 666 - 7744</h3>
+            <img src="./assests/user__1_-removebg-preview.png" alt="" class="contact-img">
+            <button class="change"><b>Change</b></button>
+        </div>
+        <div class="shipping-address">
+            <h4 class="heading">Shipping Address <b>✓</b></h4>
+            <h3 class="sub-heading">St. Paul's Road, Norris, SD 57560, Dakota, USA</h3>
+            <img src="./assests/package-removebg-preview.png" alt="" class="contact-img">
+            <button class="change"><b>Change</b></button>
+            <div class="form">
+                <form action="" class="form-type">
+                    <div class="row">
+                        <div class="input">
+                            <label for="firstname">First Name</label><br>
+                            <input type="text" name="firstname" id="int" placeholder="Cole">
+                        </div>
+                        <div class="input">
+                            <label for="lastname">Last Name</label><br>
+                            <input type="text" name="lastname" id="int" placeholder="Enrico">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input" id="address">
+                            <label for="address">Address</label><br>
+                            <input type="text" name="address" id="address" placeholder="123,Dream Avenue, USA">
+                        </div>
+                        <div class="input">
+                            <label for="appsuite">Apt, Suite</label><br>
+                            <input type="text" name="appsuite" id="apt" placeholder="55U - DD5">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input">
+                            <label for="address">City</label><br>
+                            <input type="text" name="address" id="firstname" placeholder="Norris">
+                        </div>
+                        <div class="input">
+                            <label for="appsuite">Country</label><br>
+                            <select id="country" name="country" style="border-color: aliceblue;">
+                                <option value="usa">United States</option>
+                                <option value="canada">Canada</option>
+                                <option value="uk">Mexico</option>
+                                <option value="australia">Israel</option>
+                                <option value="australia">France</option>
+                                <option value="australia">England</option>
+                                <option value="australia">Laos</option>
+                                <option value="australia">China</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input">
+                            <label for="address">State/Province</label><br>
+                            <input type="text" name="address" id="firstname" placeholder="Texas">
+                        </div>
+                        <div class="input">
+                            <label for="appsuite">Postal Code</label><br>
+                            <input type="text" name="appsuite" id="firstname" placeholder="2500">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input">
+                            <label for="address">Address Type</label><br>
+                            <input type="radio" name="home" selected>&nbsp;&nbsp;
+                            <label for="Home">Home (All day Delivery)</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                            <input type="radio" name="home">&nbsp;&nbsp;
+                            <label for="Office">Office (Delivery 9AM - 5Pm)</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <input type="button" value="Save and next to Payment" class="submit">&emsp;&emsp;&emsp;
+            <input type="button" value="Cancel" class="cancel">
+        </div>
+        <div class="contact-info">
+            <h4 class="heading">PAYMENT METHOD<b>✓</b></h4>
+            <h3 class="sub-heading">Google / Apple Wallet xxx-xxx-xx5</h3>
+            <img src="./assests/payment-method.png" alt="" class="contact-img">
+            <button class="change"><b>Change</b></button>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="right">
+            <div class="item">
+                <h2 class="right-heading">order summary</h2>
+                <button class="cost">$74.00</button>
+                <h2 class="item-title">Rey Nylon Backpack</h2>
+                <img src="./assests//item1.jpg" alt="" class="item-img">
+                <img src="./assests/bucket.png" alt="" class="icon1">
+                <p class="color">Black</p>
+                <img src="./assests/zoom.png" alt="" class="icon2">
+                <p class="size">2Xl</p>
+                <img src="./assests/minus.png" alt="" class="minus">
+                <span id="span">1</span>
+                <img src="./assests/plus.png" alt="" class="plus">
+                <button class="remove">Remove</button>
+            </div>
+            <div class="line"></div>
+            <div class="item">
+                <button class="cost">$132.00</button>
+                <h2 class="item-title">Waffle Knit Beanie</h2>
+                <img src="./assests//item1.jpg" alt="" class="item-img">
+                <img src="./assests/bucket.png" alt="" class="icon1">
+                <p class="color">Black</p>
+                <img src="./assests/zoom.png" alt="" class="icon2">
+                <p class="size">2Xl</p>
+                <img src="./assests/minus.png" alt="" class="minus">
+                <span id="span">1</span>
+                <img src="./assests/plus.png" alt="" class="plus">
+                <button class="remove">Remove</button>
+            </div>
+            <div class="line"></div>
+            <div class="item">
+                <button class="cost">$28.00</button>
+                <h2 class="item-title">Travel Pet Carrier</h2>
+                <img src="./assests//item1.jpg" alt="" class="item-img">
+                <img src="./assests/bucket.png" alt="" class="icon1">
+                <p class="color">Black</p>
+                <img src="./assests/zoom.png" alt="" class="icon2">
+                <p class="size">2Xl</p>
+                <img src="./assests/minus.png" alt="" class="minus">
+                <span id="span">1</span>
+                <img src="./assests/plus.png" alt="" class="plus">
+                <button class="remove">Remove</button>
+            </div>
+            <div class="line"></div>
+            <div class="input" id="discount">
+                <label for="address">Discount Code</label><br>
+                <input type="text" name="address" class="disc-inp">&emsp;
+                <button class="apply">Apply</button>
+            </div>
+            <div class="total2">
+                <div class="total">
+                  <h4>Subtotal</h4>
+                  <h4>Shipping estimate</h4>
+                  <h4>Tax estimate</h4>
+                  <h4 style="font-weight: bold;">Order total</h4>
+                </div>
+                <div class="total-cost">
+                  <h2 class="cost1">$249.00</h2>
+                  <h2 class="cost1">$5.00</h2>
+                  <h2 class="cost1">$24.90</h2>
+                  <h2 class="cost1">$276.00</h2>
+                </div>
+            </div>
+            <br>
+            <input type="button" value="Confirm order" class="confirm-button">
+            <h6 style="font-size: 14px; text-align: center; font-weight: 400; font-weight: bold;">♢ Learn more <a href="#">Taxes</a> and <a href="#">Shipping</a> infomation</h6>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="div1">
+            <img src="./assests/Screenshot__500_-removebg-preview.png" alt="" class="logo"><br><br>
+            <img src="./assests/facebook-removebg-preview.png" alt="" class="footer-icon"><a href="www.facebook.com/ciesco">Facebook</a><br><br>
+            <img src="./assests/video-removebg-preview.png" alt="" class="footer-icon"><a href="www.youtube.com/ciesco">Youtube</a><br><br>
+            <img src="./assests/telegram-removebg-preview.png" alt="" class="footer-icon"><a href="/ciesco">Telegram</a>
+        </div>
+        <div class="div1">
+            <h3>Getting Started</h3><br>
+            <a href=""><h4>Release Notes</h4></a>
+            <a href=""><h4>Upgrade Guide</h4></a>
+            <a href=""><h4>Browser Support</h4></a>
+            <a href=""><h4>Dark Mode</h4></a>
+        </div>
+        <div class="div1">
+            <h3>Explore</h3><br>
+            <a href=""><h4>Prototyping</h4></a>
+            <a href=""><h4>Design systems</h4></a>
+            <a href=""><h4>Pricing</h4></a>
+            <a href=""><h4>Security</h4></a>
+        </div>
+        <div class="div1">
+            <h3>Resources</h3><br>
+            <a href=""><h4>Best practices</h4></a>
+            <a href=""><h4>Support</h4></a>
+            <a href=""><h4>Developers</h4></a>
+            <a href=""><h4>Learn design</h4></a>
+        </div>
+        <div class="div1">
+            <h3>Community</h3><br>
+            <a href=""><h4 style="font-size: 13px;">Discussion Forums</h4></a>
+            <a href=""><h4>Code of Conduct</h4></a>
+            <a href=""><h4>Contributing</h4></a>
+            <a href=""><h4>API Reference</h4></a>
+        </div>
+    </div>
+  </body>
+</html>
